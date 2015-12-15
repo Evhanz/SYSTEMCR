@@ -1,0 +1,252 @@
+body{
+    background-color: #f3f3f4;
+}
+
+#bodyContent{
+    background-color: #ffffff;
+    box-shadow: -5px -5px 20px grey;
+    border-radius: 5px;
+}
+
+#contProfile{
+    color: #ffffff;
+    background-color: #204d74;
+    background-image: url("http://fc02.deviantart.net/fs71/f/2013/240/2/e/brush_bokeh_circulitos_o_brillos_png__by_ghostinloveyours-d6k3yqn.png");
+    background-position: center;
+
+
+
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0px;
+    background-color: #101010;
+    color: lightslategray;
+
+}
+
+
+
+.helpStrong1{
+
+
+    color: #FFD141;
+
+}
+
+
+/*esto es para a imagen del alumno*/
+
+.imgAvatar > img{
+
+    padding:5px; /* Espacio entre la imagen y el borde */
+    background:#FFF; /* Color de fondo que se ve entre el espacio */
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.imgAvatar > img:hover{
+
+
+
+    border-radius: 0% 50%; /* Borde redondeado */
+    box-shadow: 0px 0px 5px #000; /* Sombra */
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    cursor:pointer;
+}
+
+
+#ligaBottom{
+
+    background-color: #83B8E1;
+    color: #080808
+}
+
+#ligaNombre{
+    background-color: #C5463C;
+    box-shadow: 0px 0px 5px #000;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+#listaPrincipal > li > a{
+   color: #ffffff;
+}
+
+
+.logoProfile{
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+}
+
+
+.modHeader{
+
+    background-color: #D6AC79;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    float: right;
+    position: relative;
+    top: -40px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.navTop{
+    background-color: #245580;
+}
+
+
+#navTop{
+    background-color: #245580;
+}
+
+/*todo el contenidop dinamico se encuentra aqui*/
+#page-wrapper{
+    background-color: #f3f3f4;
+
+}
+#principal{
+
+    height: 200px;
+    background-image: url("imagenes/adds/textNavs.png");
+
+}
+
+#sectCont1{
+    background-color: #F2F2F2;
+    width: 100%;
+
+    margin: -1px;
+    padding: 0px;
+}
+
+
+.secContHeader{
+
+
+}
+.secContHeader span img{
+    width: 40%;
+}
+.secContHeader span i{
+
+    vertical-align: middle;
+    color: #D6AC79;
+}
+
+
+.sectHeader{
+
+    width: 103%;
+    height: 30px;
+    background-color: #265a88;
+    margin-right: -15px;
+    margin-left: -15px;
+    -webkit-box-shadow: inset 121px -200px 0px -187px rgba(222,202,122,0.81);
+    -moz-box-shadow: inset 121px -200px 0px -187px rgba(222,202,122,0.81);
+    box-shadow: inset 121px -200px 0px -187px rgba(222,202,122,0.81);
+
+
+}
+
+.sectHeader .titulo{
+    padding: 5px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+.sectHeader{
+    display: inline-block;
+}
+
+
+.sectHeader1{
+
+    width: 103%;
+    height: 120px;
+    background-color: #265a88;
+    margin-right: -15px;
+    margin-left: -15px;
+    -webkit-box-shadow: 1px 16px 0px -8px rgba(189,189,189,1);
+    -moz-box-shadow: 1px 16px 0px -8px rgba(189,189,189,1);
+    box-shadow: 1px 16px 0px -8px rgba(189,189,189,1);
+
+
+
+}
+
+
+#secFil{
+
+    height: 50px;
+    background-color: #265a88;
+}
+
+.subMenu{
+   background-color:  #204d74;
+}
+
+#titulo{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.side-nav>li>ul>li>a{
+    color: #88D1E2;
+}
+
+
+#viewProfile{
+
+    height: 100%;
+
+ }
+
+#viewProfile:hover{
+
+    border-radius:0; /* Con esto quitamos el borde redondeado */
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    cursor:pointer;
+
+}
+
+#page-wrapper{
+
+}
+
+
+@media (min-width: 768px){
+
+    #listaPrincipal {
+        width: 150px;
+    }
+    #listaPrincipal > li {
+        width: 150px;
+    }
+    #listaPrincipal > li > a {
+        width: 150px;
+    }
+
+    #wrapper{
+        padding-left: 150px;
+    }
+}
